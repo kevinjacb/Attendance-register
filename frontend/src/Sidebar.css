@@ -1,0 +1,18 @@
+/* Define the styles for the menu item */
+.menu-item {
+    margin-top: 5%;
+    background-color: rgba(0, 50, 100, 0.5);
+    border-radius: 50px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+/* Define the styles for the menu item on hover */
+.menu-item:hover {
+    color: black;
+}
+
+/* Define the styles for the menu icon */
+.menu-icon {
+    color: rgb(107, 134, 134);
+}

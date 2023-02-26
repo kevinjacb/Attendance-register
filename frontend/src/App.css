@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+/* #################### WELCOME #################### */
+
+.welcome {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../public/images/bg.jpg");
+  object-fit: fill;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.welcome-components {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1.welcome-components {
+  width: max-content;
+  height: max-content;
+  color: white;
+  font-size: 5rem;
+  font-family: 'Tilt Neon', cursive;
+  text-align: start;
+  margin-left: 6%;
+}
+
+p.welcome-components {
+  color: whitesmoke;
+  font-family: cursive;
+  font-size: 1.3rem;
+  margin-top: 17%;
+  margin-left: 6%;
+}
+
+#welcome-button {
+  color: white;
+  background-image: linear-gradient(to right, #615b5c, #3b3c5c);
+  padding: 0.7%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 20px;
+  margin-left: 6%;
+  text-align: center;
+  font-family: cursive;
+  width: max-content;
+  transition-duration: 500ms;
+  text-decoration: none;
+}
+
+#welcome-button:hover {
+  color: rgb(53, 51, 51);
+  background-image: linear-gradient(to right, #b9b9b99c, #c1fff1c9);
+  scale: 1.05;
+}
+
+
+/* #################### SCREENS #################### */
+
+#screens {
+  display: flex;
+}
+
+.social-icon {
+  top: 2%;
+  right: 2%;
+  position: absolute;
+  transition-duration: 500ms;
+}
+
+.social-icon:hover {
+  background-color: white;
+  border-radius: 50%;
+}

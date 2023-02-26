@@ -1,0 +1,178 @@
+/* ################## TABLESIDE ################## */
+.modify {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../public/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.modify-blur {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 3rem;
+}
+
+.table {
+    width: 80%;
+    height: 80%;
+    margin-right: 5%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.226);
+    border-radius: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#table-heads {
+    font-family: 'Tilt Neon', cursive;
+    font-size: 1.9rem;
+    background-color: brown;
+}
+
+#table-heads th {
+    padding: 1%;
+}
+
+td {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Tilt Neon', cursive;
+    background-color: rgba(0, 255, 255, 0.144);
+    font-size: 1.3rem;
+    border-bottom: 1px solid rgba(245, 222, 179, 0.349);
+}
+
+tr:hover.table-data {
+    background-image: linear-gradient(to right, rgba(0, 255, 255, 0.144), rgba(0, 255, 255, 0.61), rgba(0, 255, 255, 0.144));
+}
+
+/* #################### POPUP #################### */
+
+.popup-blur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.397);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+}
+
+.popup-box {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.336);
+    border-radius: 50px;
+}
+
+.close-icon {
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 3%;
+    margin-right: 5%;
+    transition-duration: 500ms;
+}
+
+.close-icon:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#details-heading {
+    text-align: start;
+    width: 100%;
+    padding-left: 10%;
+}
+
+#heading-wrapper,
+#details-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#details-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+
+#name-heading,
+#email-heading {
+    font-family: 'Tilt Neon', cursive;
+    font-size: 2rem;
+    color: rgb(137, 208, 255);
+}
+
+.details-sect {
+    padding-right: 10%;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+#button-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: flex-end;
+    margin-top: 5%;
+}
+
+.buttons {
+    width: 100px;
+    height: 50px;
+    border: 0;
+    border-radius: 50px;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 1.5rem;
+    margin-left: 5%;
+    transition-duration: 200ms;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.buttons:hover {
+    background-color: rgb(167, 245, 165);
+    cursor: pointer;
+}
+
+#delete-button:hover {
+    background-color: rgb(255, 0, 0) !important;
+}
+
+.popup-input {
+    width: 60%;
+    height: 100%;
+    border: 0;
+    border-radius: 50px;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 1.5rem;
+    padding-left: 5%;
+    background-color: rgba(0, 0, 0, 0.226);
+    color: white;
+}
